@@ -3,11 +3,11 @@ Prompt A,B,C,D,E,F,G
 ~G->G
 
 A->Z
-prgmNUMSTR
+prgmNUMTOSTR
 Str9->Str1
 
 abs((D/(2A)))->Z
-prgmNUMSTR
+prgmNUMTOSTR
 Str9->Str2
 
 If (D/A)<0
@@ -22,11 +22,11 @@ End
 Pause 
 
 B->Z
-prgmNUMSTR
+prgmNUMTOSTR
 Str9->Str1
 
 abs((E/(2B)))->Z
-prgmNUMSTR
+prgmNUMTOSTR
 Str9->Str2
 
 If (E/B)<0
@@ -40,11 +40,11 @@ End
 Pause 
 
 C->Z
-prgmNUMSTR
+prgmNUMTOSTR
 Str9->Str1
 
 abs((F/(2C)))->Z
-prgmNUMSTR
+prgmNUMTOSTR
 Str9->Str2
 
 If (F/C)<0
@@ -58,5 +58,5 @@ End
 Pause 
 
 G->Z
-prgmNUMSTR
+prgmNUMTOSTR
 Disp "="+Str9
